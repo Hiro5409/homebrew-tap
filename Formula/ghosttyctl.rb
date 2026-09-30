@@ -6,6 +6,11 @@ class Ghosttyctl < Formula
       revision: "19bb8cfd3c3b15169af330c9001ea8a6def20026"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/Hiro5409/homebrew-tap/releases/download/ghosttyctl-0.3.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "02ed141222760d705b2f81800a71027c12d29064219c04642bd149cbf0bdf9e6"
+  end
+
   depends_on macos: :sonoma
   uses_from_macos "swift" => :build, since: :sequoia
 
