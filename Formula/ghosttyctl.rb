@@ -2,14 +2,9 @@ class Ghosttyctl < Formula
   desc "Control Ghostty through its AppleScript API"
   homepage "https://github.com/Hiro5409/ghosttyctl"
   url "https://github.com/Hiro5409/ghosttyctl.git",
-      tag:      "v0.2.0",
-      revision: "4efd17f968adaf8e01f6af402296cedb99809d12"
+      tag:      "v0.3.0",
+      revision: "19bb8cfd3c3b15169af330c9001ea8a6def20026"
   license "MIT"
-
-  bottle do
-    root_url "https://github.com/Hiro5409/homebrew-tap/releases/download/ghosttyctl-0.2.0"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe: "c7e38a62117fde3ba6b744f3f39a3e04ef0f8bc3a3782ab59bc41629440b66a3"
-  end
 
   depends_on macos: :sonoma
   uses_from_macos "swift" => :build, since: :sequoia
