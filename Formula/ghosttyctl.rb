@@ -5,6 +5,7 @@ class Ghosttyctl < Formula
       tag:      "v0.3.2",
       revision: "7eb74365117412be5142dcd006766bf73d0440aa"
   license "MIT"
+  revision 1
 
   bottle do
     root_url "https://github.com/Hiro5409/homebrew-tap/releases/download/ghosttyctl-0.3.2"
