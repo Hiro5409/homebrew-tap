@@ -8,8 +8,8 @@ class Ghosttyctl < Formula
   revision 1
 
   bottle do
-    root_url "https://github.com/Hiro5409/homebrew-tap/releases/download/ghosttyctl-0.3.2"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe: "c9967fa4504a1d2a0336587f3783cb7e6c4d570308428e81459b4a50de64a5f7"
+    root_url "https://github.com/Hiro5409/homebrew-tap/releases/download/ghosttyctl-0.3.2_1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "fac87fc237f0c71047bc3dce43758367bb0b579a12e840cae50b1342d3b36af5"
   end
 
   depends_on macos: :sonoma
